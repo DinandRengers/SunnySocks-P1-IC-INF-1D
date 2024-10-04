@@ -5,8 +5,17 @@ body
   height: 100vh;
 }
 
-body > h1 
+main > h1 
 {
   color: red;
   font-size: large;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
+
+div
+{
+  color: sandybrown;
+}
+
+
