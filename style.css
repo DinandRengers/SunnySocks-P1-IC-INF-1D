@@ -5,17 +5,21 @@ body
   height: 200vh;
 }
 
-main > h1 
+main
 {
-  color: red;
-  font-size: large;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
+main > h1 
+{
+  color: red;
+  font-size: large;
+}
+
 div
 {
-  color: sandybrown;
+  background-color: sandybrown;
 }
 
 header
@@ -23,7 +27,7 @@ header
   display: flex;
   position: sticky;
   height: 100px;
-  color: turquoise;
+  background-color: turquoise;
   width: 100%;
 }
 
