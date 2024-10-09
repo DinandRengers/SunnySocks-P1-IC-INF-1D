@@ -1,8 +1,101 @@
-body 
+@font-face
+{
+font-family: "Nexa Bold";
+src: url("../content/fonts/Nexa\ Bold.otf");
+
+font-family: "Nexa Light";
+src: url("../content/fonts/Nexa\ Light.otf");
+}
+
+*
 {
   margin: 0;
+}
+
+body 
+{
   width: 100vw;
   height: 200vh;
+  font-family: "Nexa Bold";
+}
+
+header
+{
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  height: 6rem;
+  background-color: #10565D;
+  width: 100%;
+  top: 0;
+  color: white;
+  padding: 0 5rem;
+}
+
+header > img
+{
+  margin: 5px;
+}
+
+.zoeken
+{
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  width: 25%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  margin: 1.5rem 10rem;
+}
+
+.menu
+{
+  display: flex;
+  margin: auto 5rem;
+  justify-content: center;
+}
+
+.menu > button
+{
+  font-family: "Nexa Bold";
+  background-color: #10565D;
+  border: none;
+  padding: 1rem;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.menu > button:hover
+{
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+}
+
+.menu > a > img
+{
+  width: 3rem;
+  height: 3rem;
+  margin-top: auto;
+}
+
+.menu > a
+{
+  margin-left: 1rem;
+}
+
+.menu > a:hover
+{
+  background-color: black;
+  filter: invert(1);
+  border-radius: 1rem;
 }
 
 main
@@ -15,24 +108,4 @@ main > h1
 {
   color: red;
   font-size: large;
-}
-
-div
-{
-  background-color: sandybrown;
-}
-
-header
-{
-  display: flex;
-  position: sticky;
-  height: 100px;
-  background-color: turquoise;
-  width: 100%;
-  top: 0;
-}
-
-header > p
-{
-  color: grey;
 }
