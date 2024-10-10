@@ -10,12 +10,6 @@ src: url("../content/fonts/Nexa\ Light.otf");
 *
 {
   margin: 0;
-}
-
-body 
-{
-  width: 100vw;
-  height: 200vh;
   font-family: "Nexa Bold";
 }
 
@@ -26,10 +20,9 @@ header
   position: sticky;
   height: 6rem;
   background-color: #10565D;
-  width: 100%;
-  top: 0;
+  width: 100vw;
   color: white;
-  padding: 0 5rem;
+  box-sizing: border-box;
 }
 
 header > img
@@ -40,15 +33,15 @@ header > img
 .zoeken
 {
   background-color: white;
-  color: black;
-  border-radius: 1rem;
-  width: 25%;
-  height: 3rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1rem;
-  margin: 1.5rem 10rem;
+    color: black;
+    border-radius: 1rem;
+    width: 30%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    margin: 1.5rem 1rem;
 }
 
 .menu
@@ -96,16 +89,4 @@ header > img
   background-color: black;
   filter: invert(1);
   border-radius: 1rem;
-}
-
-main
-{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-main > h1 
-{
-  color: red;
-  font-size: large;
 }
