@@ -5,4 +5,5 @@
 
 
 ## Font
-- Family: Nexa
+- Family: Nexa Bold
+- Family: Nexa Light
