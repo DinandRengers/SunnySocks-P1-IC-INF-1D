@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+}
+
+.overons
+{
+    width: 100vw;
+    height: 150vh;
+}
+
+.headtitle
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 8rem;
+    font-weight: 200;
+    font-size: 52px;
+    line-height: 3em;
+}
+
+.contentoverons
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 65%;
+    margin-inline: 6em;
+}
+
+.overonsinfo
+{
+    display: grid;
+    width: 100%;
+    height: auto;
+    padding-right: 7em;
+    grid-template-rows: 0.6fr 1.4fr 1fr 1.2fr 1.2fr
+}
+
+.overonsinfotitel
+{
+    display: grid;
+    width: 50%;
+    height: 1rem;
+    padding-inline: 25rem;
+    padding-top: 0.5em;
+    grid-row: 1;
+    line-height: 2rem;
+    font-weight: bolder;
+    font-size: 92px;
+}
+
+.overonsinfotitel > h2
+{
+    margin-top: 0.2em;
+}
+
+.overonsinfotitel > p
+{
+    height: 2em;
+    padding-inline: 3rem;
+    padding-bottom: 3rem;
+}
+
+.overonsinfosec1
+{
+    background-color: rgb(98, 168, 98);
+    color: white;
+    width: 90%;
+    font-size: 52px;
+    padding-inline: 0.7em;
+    padding-block: 0.7em;
+    border-radius: 1em;
+}
+
+.overonsinfosec1 > .titlesec1
+{
+    font-weight: bold;
+
+}
+
+.overonsinfosec2
+{
+    width: 90%;
+    font-size: 48px;
+    padding-inline: 0.5em;
+    padding-block: 0.5em;
+    border-radius: 1em;
+    font-family: "Nexa Light";
+}
+
+.overonsinfosec2 > .titlesec2
+{
+    color: rgb(98, 168, 98);
+    font-weight: bold;
+    font-family: "Nexa Bold";
+
+}
+
+.overonsinfosec3
+{
+    width: 90%;
+    font-size: 48px;
+    padding-inline: 0.5em;
+    padding-block: 0.5em;
+    border-radius: 1em;
+    font-family: "Nexa Light";
+}
+
+.overonsinfosec3 > .titlesec3
+{
+    color: rgb(98, 168, 98);
+    font-weight: bold;
+    font-family: "Nexa Bold";
+
+}
+
+.overonsinfobanner
+{
+    width: 90%;
+    padding-inline: 0.5em;
+    padding-block: 1em;
+}
+
+.overonsinfobanner > img
+{
+    width: 100%;
+    border-radius: 1%;
+}
+
+.overonstijdlijn
+{
+    display: grid;
+    grid-column: 2;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.overonstijdlijnsec1
+{
+    background-color: rgb(255, 229, 229, 100%);
+}
