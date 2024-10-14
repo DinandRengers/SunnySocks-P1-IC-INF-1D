@@ -1,38 +1,91 @@
-body 
+@font-face
+{
+font-family: "Nexa Bold";
+src: url("../content/fonts/Nexa\ Bold.otf");
+
+font-family: "Nexa Light";
+src: url("../content/fonts/Nexa\ Light.otf");
+}
+
+*
 {
   margin: 0;
-  width: 100vw;
-  height: 200vh;
-}
-
-main
-{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-main > h1 
-{
-  color: red;
-  font-size: large;
-}
-
-div
-{
-  background-color: sandybrown;
+  font-family: "Nexa Bold";
 }
 
 header
 {
   display: flex;
+  flex-direction: row;
   position: sticky;
-  height: 100px;
-  background-color: turquoise;
-  width: 100%;
-  top: 0;
+  height: 6rem;
+  background-color: #10565D;
+  width: 100vw;
+  color: white;
+  box-sizing: border-box;
 }
 
-header > p
+header > img
 {
-  color: grey;
+  margin: 5px;
+  padding-right: 5rem;
+  padding-left: 2rem;
+}
+
+.zoeken
+{
+  background-color: white;
+    color: black;
+    border-radius: 1rem;
+    width: 30%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    margin: 1.5rem 1rem;
+}
+
+.menu
+{
+  display: flex;
+  margin: auto 5rem;
+  justify-content: center;
+}
+
+.headerMenu
+{
+  font-family: "Nexa Bold";
+  background-color: #10565D;
+  border: none;
+  padding: 1rem;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: auto;
+}
+
+.headerMenu:hover
+{
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+}
+
+.fotoHeader
+{
+  width: 3rem;
+  height: 3rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1.5rem 1rem;
+}
+
+.fotoHeader:hover
+{
+  filter:invert(1);
 }
