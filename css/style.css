@@ -39,8 +39,7 @@ header
 header > img
 {
   margin: 5px;
-  padding-right: 5rem;
-  padding-left: 2rem;
+  padding: 0 5rem 0 2rem;
 }
 
 .zoeken
@@ -133,7 +132,7 @@ footer > div
   padding-left: 2.5rem;
 }
 
-.footerLocaties > p
+.footerLocaties > address > p
 {
   margin: 1rem 0.5rem;
 }
