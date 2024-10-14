@@ -34,7 +34,6 @@ header
   height: 6rem;
   background-color: #10565D;
   color: white;
-
 }
 
 header > img
@@ -142,8 +141,13 @@ footer > div
 .footerInfo
 {
   text-decoration: none;
-  color: white; 
+  color: white;
   font-family: "Nexa Light";
+}
+
+.footerInfo:hover
+{
+  text-decoration: underline 1px white;
 }
 
 .footerSocial
