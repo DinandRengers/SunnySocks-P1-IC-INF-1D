@@ -1,0 +1,96 @@
+body
+{
+    margin: 0;
+}
+
+.banner-img
+{
+    background-image: url(../content/Sunnysocksbanner.png);
+    background-position: center;
+    height: fit-content;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    opacity: 0.9;
+}
+
+
+.banner-text
+{
+    text-align: center;
+}
+
+.center
+{
+    align-content: center;
+    background-color: #FFB729;
+    border-radius: 20px;
+    width: 50%;
+    padding: -1em;
+    margin: 2em;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15em;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.grid-container div
+{
+    margin: 10%;
+}
+
+
+.grid-container2
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #10565d;
+}
+
+
+.grid-item
+{
+    display: grid;
+    background-color: #ffffff;
+    margin: 10%;
+    border-radius: 15px;
+    text-align: center; 
+}
+
+.merkwaarden
+{
+    grid-column: span 3;
+    text-align: center;
+    color: #ffffff;
+}
+.card
+{
+    border-color: #ffffff;
+    border: 1px solid #1e1e1e;
+    border-radius: 10px;
+}
+
+.card img
+{
+    height: 20em;
+    width: 20em;
+    padding: 1em;
+}
+
+.black
+{
+    background-color: #1e1e1e;
+    color: #ffffff;
+    
+}
+
+.white
+{
+    background: #ffffff;
+    border-color: #1e1e1e;
+}
