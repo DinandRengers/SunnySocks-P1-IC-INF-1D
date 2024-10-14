@@ -2,4 +2,33 @@
 {
     width: 100vw;
     max-height: 60vh;
+    margin-bottom: 4rem;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60vw;
+    margin-left: 4rem;
+    gap: 2rem;
+}
+
+.flex-item
+{
+    flex: 1 0 25%;
+
+}
+.flex-item img 
+{
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.flex-item p 
+{
+    margin-top: 10px;
+    font-size: 16px;
 }
