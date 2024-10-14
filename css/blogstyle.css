@@ -2,7 +2,7 @@
 {
     width: 100vw;
     max-height: 60vh;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .flex-container
@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 60vw;
+    width: 65vw;
     margin-left: 4rem;
     gap: 2rem;
 }
