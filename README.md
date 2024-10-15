@@ -12,3 +12,5 @@ Wij maken een website voor onze opdrachtgever van Sunny Socks, hierbij wordt gee
 Extra info:
 Voor de taakverdeling zie: taakverdeling.md  
 Voor de style guide zie: style-Guide.md  
+Om de logs te zien zie: Logboek IC-INF-1D SunnySocks.xlsx
+Voor de git command zie: Git command.md
