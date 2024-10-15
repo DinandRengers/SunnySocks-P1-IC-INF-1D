@@ -10,8 +10,12 @@
         <header>
             <img src="./content/sunny_logos-01.png" alt="Sunny Socks logo">
             <div class="zoeken">
-                <p>Zoeken</p>
-                <img src="./content/zoekLogo.png" alt="Zoeken">
+            <form action="search.php" method="POST">
+                <label for="Zoeken"></label>
+                <input type="text" name="zoeken" id="Zoeken" placeholder="Zoeken">
+                <input type="submit" value="versturen">
+            </form>
+            <img src="./content/zoekLogo.png" alt="Zoeken"> 
             </div>
             <nav class="menu">
                 <a class="headerMenu" href="./index.html">Home</a>
