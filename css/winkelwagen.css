@@ -2,3 +2,35 @@
 {
     margin: 0;
 }
+
+html, body 
+{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.contentwinkelwagen 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+.winkelwagen
+{
+    display: flex;
+    justify-self: center;
+    background-color: rgb(137, 189, 185, 25%);
+    width: 50rem;
+    height: 55rem;
+}
+
+.winkelwagen > h2
+{
+    display: flex;
+    justify-self: center;
+    background-color: white;
+    width: 100%;
+    height: 10%;
+}
