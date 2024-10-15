@@ -7,7 +7,7 @@
 .overons
 {
     width: 100vw;
-    height: 215vh;
+    height: 200vh;
 }
 
 .headtitle
@@ -17,40 +17,36 @@
     width: 100%;
     height: 8rem;
     font-weight: 200;
-    font-size: 52px;
-    line-height: 3em;
+    font-size: 48px;
+    line-height: 8rem;
 }
 
 .contentoverons
 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100%;
     height: 65%;
-    margin-inline: 6rem;
+    margin-inline: 3rem;
 }
 
 .overonsinfo
 {
     display: grid;
-    width: 100%;
     height: auto;
     grid-column: 1;
-    padding-right: 7rem;
+    padding-right: 3rem;
     grid-template-rows: 0.6fr 1.4fr 1fr 1.2fr 1.2fr
 }
 
 .overonsinfotitel
 {
     display: grid;
-    width: 100%;
     height: 1rem;
-    padding-inline: 25rem;
-    padding-top: 0.5rem;
+    padding-inline: 6rem;
     grid-row: 1;
-    line-height: 2rem;
+    line-height: 8rem;
     font-weight: bolder;
-    font-size: 92px;
+    font-size: 48px;
 }
 
 .overonsinfotitel > h2
@@ -62,7 +58,6 @@
 {
     height: 2rem;
     padding-inline: 3rem;
-    padding-bottom: 3rem;
 }
 
 .overonsinfosec1
@@ -70,7 +65,8 @@
     background-color: rgb(98, 168, 98);
     color: white;
     width: 90%;
-    font-size: 52px;
+    height: 20rem;
+    font-size: 22px;
     padding-inline: 0.7rem;
     padding-block: 0.7rem;
     border-radius: 1rem;
@@ -85,10 +81,7 @@
 .overonsinfosec2
 {
     width: 90%;
-    font-size: 48px;
-    padding-inline: 0.5em;
-    padding-block: 0.5em;
-    border-radius: 1em;
+    font-size: 24px;
     font-family: "Nexa Light";
 }
 
@@ -103,10 +96,7 @@
 .overonsinfosec3
 {
     width: 90%;
-    font-size: 48px;
-    padding-inline: 0.5em;
-    padding-block: 0.5em;
-    border-radius: 1em;
+    font-size: 24px;
     font-family: "Nexa Light";
 }
 
@@ -128,16 +118,16 @@
 .overonsinfobanner > img
 {
     width: 100%;
-    border-radius: 1%;
+    border-radius: 1em;
 }
 
 .overonstijdlijn
 {
     display: grid;
-    padding-block: 5rem;
-    padding-right: 7rem;
+    padding-block: 2rem;
+    padding-right: 1.5rem;
     grid-column: 2;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 0.7fr);
     font-family: "Nexa Light";
 }
 
@@ -150,21 +140,21 @@
 
 .overonstijdlijnsec1 > .jaarTijdlijn
 {
-    font-size: 76px;
+    font-size: 32px;
     font-weight: bolder;
     color: rgb(251, 112, 112, 100%);
 }
 
 .overonstijdlijnsec1 > .titelTijdlijn
 {
-    font-size: 48px;
+    font-size: 28px;
     font-weight: bolder;
     color: rgb(251, 112, 112, 100%);
 }
 
 .overonstijdlijnsec1 > .textTijdlijn
 {
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .overonstijdlijnsec2
@@ -175,21 +165,21 @@
 
 .overonstijdlijnsec2 > .jaarTijdlijn
 {
-    font-size: 76px;
+    font-size: 32px;
     font-weight: bolder;
     color: rgb(72, 96, 217, 100%);
 }
 
 .overonstijdlijnsec2 > .titelTijdlijn
 {
-    font-size: 48px;
+    font-size: 28px;
     font-weight: bolder;
     color: rgb(72, 96, 217, 100%);
 }
 
 .overonstijdlijnsec2 > .textTijdlijn
 {
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .overonstijdlijnsec3
@@ -200,21 +190,21 @@
 
 .overonstijdlijnsec3 > .jaarTijdlijn
 {
-    font-size: 76px;
+    font-size: 32px;
     font-weight: bolder;
     color: rgb(232, 204, 53, 100%);
 }
 
 .overonstijdlijnsec3 > .titelTijdlijn
 {
-    font-size: 48px;
+    font-size: 28px;
     font-weight: bolder;
     color: rgb(232, 204, 53, 100%);
 }
 
 .overonstijdlijnsec3 > .textTijdlijn
 {
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .overonstijdlijnsec4
@@ -225,21 +215,21 @@
 
 .overonstijdlijnsec4 > .jaarTijdlijn
 {
-    font-size: 76px;
+    font-size: 32px;
     font-weight: bolder;
     color: rgb(66, 210, 64, 100%);
 }
 
 .overonstijdlijnsec4 > .titelTijdlijn
 {
-    font-size: 48px;
+    font-size: 28px;
     font-weight: bolder;
     color: rgb(66, 210, 64, 100%);
 }
 
 .overonstijdlijnsec4 > .textTijdlijn
 {
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .overonstijdlijnsec5
@@ -251,19 +241,19 @@
 
 .overonstijdlijnsec5 > .jaarTijdlijn
 {
-    font-size: 76px;
+    font-size: 32px;
     font-weight: bolder;
     color: rgb(247, 147, 55, 100%);
 }
 
 .overonstijdlijnsec5 > .titelTijdlijn
 {
-    font-size: 48px;
+    font-size: 28px;
     font-weight: bolder;
     color: rgb(247, 147, 55, 100%);
 }
 
 .overonstijdlijnsec5 > .textTijdlijn
 {
-    font-size: 36px;
+    font-size: 20px;
 }
