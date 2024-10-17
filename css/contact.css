@@ -1,0 +1,50 @@
+.mainFoto
+{
+    text-align: center;
+    background-image: url(../content/Bergenlandschap.png);
+    background-size: cover;
+    height: 50vh;
+    color: white;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.neemContact
+{
+    text-align: center;
+    font-size: 48px;
+    margin: 1rem 0;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 2rem;
+}
+
+.grid > section > h2
+{
+    font-size: 40px;
+}
+
+.googleMaps
+{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    font-size: 24px;
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.informatie
+{
+    display: flex;
+    flex-direction: column;
+}
