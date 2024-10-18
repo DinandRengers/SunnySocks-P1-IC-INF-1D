@@ -32,17 +32,60 @@
         <section class="winkelwagen">
             <h2>Mijn winkelwagen:</h2>
                 <div class="wwproduct1">
-                    
+                    <img src="../content/Sunny_socks_uni_green.jpg" alt="Green Socks">
+                    <p>Naam: Uni-Socks Groen</p>
+                <form method="POST" action="wagen.php">
+                <input type="hidden" name="id" value="2">
+                <input type="hidden" name="name" value="Striped Green Socks">
+                <input type="hidden" name="price" value="12.50">
+                <label for="quantity">Aantal:</label>
+                <input class="Aantal" type="number" name="quantity" value="1" min="1" max="99">
                 </div>
-                    <div class="wwproduct1prijs"></div>
-                <div class="wwproduct2"></div>
-                    <div class="wwproduct2prijs"></div>
-                <div class="wwproduct3"></div>
-                    <div class="wwproduct3prijs"></div>
+                </form>
+                </div>
+                <div class="wwproduct1prijs">
+                    <p>Prijs: €12,50</p> 
+                </div> 
+                <div class="wwproduct2">
+                    <img src="../content/Sunny_socks_uni_red.jpg" alt="Red Socks">
+                    <p>Naam: Uni-Socks Rood</p>
+                <form method="POST" action="wagen.php">
+                <input type="hidden" name="id" value="2">
+                <input type="hidden" name="name" value="Striped Green Socks">
+                <input type="hidden" name="price" value="12.50">
+                <label for="quantity">Aantal:</label>
+                <input class="Aantal" type="number" name="quantity" value="1" min="1" max="99">
+                </div>
+                </form>
+                </div>
+                    <div class="wwproduct2prijs">
+                        <p>Prijs: €12,50</p>
+                    </div>
+                <div class="wwproduct3">
+                    <img src="../content/Sunny_socks_uni_yellow.jpg" alt="Yellow Socks">
+                    <p>Naam: Uni-Socks Geel</p>
+                <form method="POST" action="wagen.php">
+                <input type="hidden" name="id" value="2">
+                <input type="hidden" name="name" value="Striped Yellow Socks">
+                <input type="hidden" name="price" value="12.50">
+                <label for="quantity">Aantal:</label>
+                <input class="Aantal" type="number" name="quantity" value="1" min="1" max="99">
+                </div>
+                </form>
+                </div>
+                    <div class="wwproduct3prijs">
+                        <p>Prijs: €12,50</p>
+                    </div>
                 <div class="wwinfo">
                     <img src="../content/sunny_logos_slogan_blue.png" alt="sunny_logos_slogan_blue">
                 </div>
-                    <div class="totaalprijs"></div>
+                    <div class="totaalprijs">
+                        <p>Prijs:</p>
+                        <p>BTW:</p>
+                        <p>Service:</p>
+                        <p><br></p>
+                        <p>Totaal:</p>
+                    </div>
         </section>
         <section class="winkelwagenbanner"></section>
     </main>
