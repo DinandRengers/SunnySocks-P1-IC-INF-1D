@@ -9,18 +9,18 @@ html, body
     width: 100%;
 }
 
-.winkelwagenbanner
+footer
 {
-    display: flex;
-    justify-content: center;
-    max-height: 45rem;
-    padding-inline: 3rem;
+  margin-top: 0;
 }
 
-.winkelwagenbanner > img
+.winkelwagenbanner
 {
-    width: auto;
-    height: auto;
+    background-image: url(../content/Winkelwagenportrait.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-inline: 3rem;
 }
 
 .contentwinkelwagen 
@@ -40,7 +40,7 @@ html, body
     margin-block: 3rem;
     margin-inline: 5rem;
     border-radius: 2rem;
-    width: 35rem;
+    width: auto;
     height: auto;
 }
 
