@@ -26,6 +26,11 @@ p
   font-family: "Nexa Light";
 }
 
+.wit
+{
+  color: white;
+}
+
 header
 {
   display: flex;
@@ -34,7 +39,6 @@ header
   top: 0;
   height: 6rem;
   background-color: #10565D;
-  color: white;
   justify-content: space-between;
 }
 
@@ -47,40 +51,55 @@ header > img
 .zoeken
 {
   background-color: white;
-    color: black;
-    border-radius: 1rem;
-    width: 30%;
-    height: 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    margin: 1.5rem 1rem;
+  color: black;
+  border-radius: 1rem;
+  width: 30%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  margin: 1.5rem 1rem;
 }
 
 .menu
 {
-  display: flex;
   margin: 0 2rem 0 5rem;
   justify-content: center;
+}
+
+
+.menu > ul
+{
+  display: flex;
+  list-style-type: none;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.menuMargin
+{
+  margin: 2rem 1rem;
 }
 
 .headerMenu
 {
   font-family: "Nexa Bold";
-  background-color: #10565D;
-  border: none;
-  padding: 1rem;
-  color: white;
   font-size: 24px;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  margin: auto;
+  padding: 1rem 0;
+  white-space: nowrap;
 }
 
 .headerMenu:hover
+{
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+}
+
+.headerMenu.active
 {
   background-color: white;
   color: black;
@@ -93,18 +112,12 @@ header > img
   height: 3rem;
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
   margin: 1.5rem 1rem;
 }
 
 .fotoHeader:hover
 {
   filter:invert(1);
-}
-
-.height
-{
-  height: 75vh;
 }
 
 footer
@@ -120,7 +133,6 @@ footer
 footer > div
 {
   margin: 2rem;
-  color: white;
 }
 
 .footerLogo
@@ -143,7 +155,6 @@ footer > div
 .footerInfo
 {
   text-decoration: none;
-  color: white;
   font-family: "Nexa Light";
 }
 
@@ -183,6 +194,5 @@ footer > div
   grid-column: 1 / span 3;
   background-color: #092629;
   text-align: center;
-  color: white;
   height: fit-content;
 }
