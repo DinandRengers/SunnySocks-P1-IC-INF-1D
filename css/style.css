@@ -24,6 +24,7 @@ header
   width: 100vw;
   color: white;
   box-sizing: border-box;
+  z-index: 9999999;
 }
 
 header > img
@@ -89,4 +90,84 @@ header > img
 .fotoHeader:hover
 {
   filter:invert(1);
+}
+
+footer
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 95% 5%;
+  background-color: #10565D;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+
+footer > div
+{
+  margin: 2rem;
+  color: white;
+}
+
+.footerLogo
+{
+  width: 75%;
+  padding-bottom: 2rem;
+}
+
+.footerLocaties
+{
+  padding-left: 2.5rem;
+}
+
+.footerLocaties > address
+{
+  margin: 0.5rem;
+  font-size: 16px;
+}
+
+.footerInfo
+{
+  text-decoration: none;
+  color: white;
+  font-family: "Nexa Light";
+}
+
+.footerInfo:hover
+{
+  text-decoration: underline 1px white;
+}
+
+.footerSocial
+{
+  padding-left: 5rem;
+}
+
+.footerSocials
+{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footerFlex
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.footerFlex > a > img
+{
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.footerCopyright
+{
+  grid-column: 1 / span 3;
+  background-color: #092629;
+  text-align: center;
+  color: white;
+  height: fit-content;
 }
