@@ -34,7 +34,7 @@
 {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    font-size: 24px;
+    font-size: 48px;
 }
 
 .flex
@@ -43,8 +43,114 @@
     flex-direction: row;
 }
 
+.flex > img
+{
+    width: 40%;
+}
+
+.mapsBovenOnder
+{
+    margin:2rem;
+}
+
+.mapsBovenOnder > p
+{
+    margin-left: 2rem;
+}
+
+.mapsMidden
+{
+    margin: 2rem 0;
+}
+
+.mapsMidden > p
+{
+   margin: 0 2rem; 
+}
+
 .informatie
 {
     display: flex;
     flex-direction: column;
+    border-left: 1px solid black;
+    padding-left: 3rem;
 }
+
+.helpdesk
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.helpdesk > img
+{
+    width: 50%;
+}
+
+.textContact
+{
+    margin-left: 1rem;
+}
+
+.textContact > a
+{
+    text-decoration: none;
+    color: black;
+    margin: 1.5rem;
+}
+
+.textContact > a:hover
+{
+    text-decoration: underline solid 1px black;
+}
+
+.Marketing
+{
+    margin: 10rem 0;
+}
+
+.formulier
+{
+    margin-right: 2rem;
+}
+
+.formulier > h3
+{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form
+{
+    display: grid;
+    grid-template-rows: 4;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-family: "Nexa Bold";
+}
+
+.form > input[type="text"]
+{
+    margin-bottom: 1rem;
+}
+
+.form > input[type="submit"]
+{
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+.form > input[type="submit"]:hover
+{
+    background-color: hsl(137, 35%, 50%);
+    color: black;
+}
+
+.berichtHeight
+{
+    min-height: 3rem;
+}
+

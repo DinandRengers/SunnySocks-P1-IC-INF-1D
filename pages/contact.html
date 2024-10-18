@@ -11,12 +11,12 @@
         <header>
             <img src="../content/sunny_logos-01.png" alt="Sunny Socks logo">
             <div class="zoeken">
-            <form action="search.php" method="POST">
-                <label for="Zoeken"></label>
-                <input type="text" name="zoeken" id="Zoeken" placeholder="Zoeken">
-                <input type="submit" value="versturen">
-            </form>
-            <img src="../content/zoekLogo.png" alt="Zoeken"> 
+                <form action="search.php" method="POST">
+                    <label for="Zoeken"></label>
+                    <input type="text" name="zoeken" id="Zoeken" placeholder="Zoeken">
+                    <input type="submit" value="versturen">
+                </form>
+                <img src="../content/zoekLogo.png" alt="Zoeken"> 
             </div>
             <nav class="menu">
                 <a class="headerMenu" href="../index.html">Home</a>
@@ -35,28 +35,72 @@
                 </div>
                 <h2 class="neemContact">Neem contact met ons op!</h2>
             </section>
-
+            
             <section class="grid">
                 <section>
                     <h2 class="neemContact">Onze locaties</h2>
                     <div class="googleMaps">
-                        <div class="flex">
-                            <img src="" alt="">
-                            <p>H.A Kooyerplein 40, 9713GV  Gronigen - Winkel</p>
+                        <div class="flex mapsBovenOnder">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2388.627089128252!2d6.576059312956148!3d53.224534372138415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c9d2a74492df8b%3A0xe4d7a4e3dcbeb52b!2sH.A.%20Kooykerplein%2040%2C%209713%20GV%20Groningen!5e0!3m2!1snl!2snl!4v1729242732229!5m2!1snl!2snl" 
+                            width="600" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                            <p>H.A Kooyerplein 40,<br>9713GV  Gronigen - Winkel</p>
                         </div>
-                        <div class="flex">
-                            <p>Lange Smeestraat 29, 3511 PT Utrecht - Winkel</p>
-                            <img src="" alt="">
+                        <div class="flex mapsMidden">
+                            <p class="mapsMidden">Lange Smeestraat 29, <br> 3511 PT Utrecht - Winkel</p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.654252447309!2d5.11823871290406!3d52.08602357183374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f5a1a3447c7%3A0x8d9b0819a1d47d67!2sLange%20Smeestraat%2029%2C%203511%20PT%20Utrecht!5e0!3m2!1snl!2snl!4v1729243095453!5m2!1snl!2snl" 
+                            width="600" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
                         </div>
-                        <div class="flex">
-                            <img src="" alt="">
-                            <p>Leliestraat 21, 6211 EA Maastricht - Winkel</p>
+                        <div class="flex maps mapsBovenOnder">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.0431685816284!2d5.687299712848339!3d50.84888487155281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0e9b9e9021e95%3A0xa3c7f368fb35812c!2sLeliestraat%2021%2C%206211%20EA%20Maastricht!5e0!3m2!1snl!2snl!4v1729243119773!5m2!1snl!2snl" 
+                            width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                            <p>Leliestraat 21,<br>6211 EA Maastricht - Winkel</p>
                         </div>
                     </div>
                 </section>
 
                 <section class="informatie">
+                    <div>
+                        <h2>Onze Helpdesk</h2>
+                        <div class="helpdesk">
+                            <img src="../content/helpdesksok.png" alt="helpdesk sok">
+                            <div class="textContact">
+                                <h3>Suzan Jong</h3>
+                                <p>Helpdesk</p>
+                                <a href="tel:+31612345678"><p>+31 6 12345678</p></a>
+                                <a href="mailto:SuzanJong@sunnysocks.com"><p>SuzanJong<br>@sunnysocks.com</p></a>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="Marketing">
+                        <h2>Onze marketing-expert</h2>
+                        <div class="helpdesk">
+                            <img src="../content/marketingsok.png" alt="helpdesk sok">
+                            <div class="textContact">
+                                <h3>John Smit</h3>
+                                <p>Marketing</p>
+                                <a href="tel:+31612345678"><p>+31 6 12345678</p></a>
+                                <a href="mailto:JohnSmit@sunnysocks.com"><p>JohnSmit<br>@sunnysocks.com</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="formulier">
+                        <h3>Vragen? Vul dan het contact formulier in.</h3>
+                        <form class="form">
+                            <label for=""><b>Naam</b></label>
+                            <input placeholder="John" type="text" name="" id="" required>
+                            <label for=""><b>Achternaam</b></label>
+                            <input placeholder="Doe" type="text" name="" id="" required>
+                            <label for=""><b>Email</b></label>
+                            <input placeholder="johndoe@email.com" type="text" name="" id="" required>
+                            <label for=""><b>Bericht</b></label>
+                            <input class="berichtHeight" placeholder="Uw bericht hier" type="text" name="" id="" required>
+                            <input class="submit" type="submit" name="" id="" value="Versturen">
+                        </form>
+                    </div>
                 </section>
             </section>
         </main>
