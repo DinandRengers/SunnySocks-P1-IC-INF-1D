@@ -37,11 +37,9 @@ footer
     grid-template-columns: 1fr 0.5fr;
     grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
     background-color: rgb(137, 189, 185, 35%);
-    margin-block: 3rem;
-    margin-inline: 3rem;
+    margin-block: 6rem;
+    margin-inline: 6rem;
     border-radius: 2rem;
-    width: auto;
-    height: auto;
 }
 
 .winkelwagen > h2
@@ -54,6 +52,13 @@ footer
     line-height: 6rem;
 }
 
+.cancelbutton
+{
+    width: 4rem;
+    height: 2rem;
+    padding-right: 1rem;
+}
+
 .wwproduct1
 {
     display: flex;
@@ -64,19 +69,26 @@ footer
     max-height: 80%;
     font-size: 1.2rem;
     font-weight: bold;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.wwproduct1 > img
+.wwproduct1 > .productimg
 {
-    max-width: 40%;
-    max-height: 60%;
-    border-style: dashed;
-    border-color: rgb(52, 52, 74);;
-    border-radius: 1rem;
-    border-width: 2px;
+    max-width: 60%;
+    max-height: 80%;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-width: 1px;
+}
+
+.p1info
+{
+    padding-left: 1rem;
+    width: 12rem;
+    line-height: 1.7rem;
 }
 
 .wwproduct1prijs
@@ -88,7 +100,8 @@ footer
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    border-left-style: dashed;
+    border-left-style: solid;
+    border-color: rgba(67, 124, 124, 20%);
 }
 
 .wwproduct2
@@ -110,8 +123,6 @@ footer
 {
     max-width: 40%;
     max-height: 60%;
-    border-style: dashed;
-    border-color: rgb(52, 52, 74);;
     border-radius: 1rem;
     border-width: 2px;
 }
@@ -126,6 +137,8 @@ footer
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    border-left-style: solid;
+    border-color: rgba(67, 124, 124, 20%);
 }
 
 .wwproduct3
@@ -147,8 +160,6 @@ footer
 {
     max-width: 40%;
     max-height: 60%;
-    border-style: dashed;
-    border-color: rgb(52, 52, 74);;
     border-radius: 1rem;
     border-width: 2px;
 }
@@ -163,6 +174,8 @@ footer
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    border-left-style: solid;
+    border-color: rgba(67, 124, 124, 10%);
 }
 
 .wwinfo
@@ -171,6 +184,8 @@ footer
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    border-top-style: solid;
+    border-color: rgba(67, 124, 124, 10%);
 }
 
 .wwinfo > img
@@ -184,4 +199,7 @@ footer
     font-family: "Nexa Bold";
     font-weight: bold;
     font-size: 1.3rem;
+    border-left-style: solid;
+    border-color: rgba(67, 124, 124, 10%);
+    border-top-style: solid;
 }
