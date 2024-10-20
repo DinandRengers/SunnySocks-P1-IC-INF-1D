@@ -57,6 +57,7 @@ footer
     width: 4rem;
     height: 2rem;
     padding-right: 1rem;
+    cursor: pointer;
 }
 
 .wwproduct1
@@ -69,13 +70,10 @@ footer
     max-height: 80%;
     font-size: 1.2rem;
     font-weight: bold;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
     align-items: center;
 }
 
-.wwproduct1 > .productimg
+.productimg
 {
     max-width: 60%;
     max-height: 80%;
@@ -84,7 +82,7 @@ footer
     border-width: 1px;
 }
 
-.p1info
+.pinfo
 {
     padding-left: 1rem;
     width: 12rem;
@@ -101,7 +99,7 @@ footer
     align-items: center;
     font-size: 1.2rem;
     border-left-style: solid;
-    border-color: rgba(67, 124, 124, 20%);
+    border-color: rgba(67, 124, 124, 10%);
 }
 
 .wwproduct2
@@ -114,19 +112,8 @@ footer
     max-height: 80%;
     font-size: 1.2rem;
     font-weight: bold;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
+    align-items: center;
 }
-
-.wwproduct2 > img
-{
-    max-width: 40%;
-    max-height: 60%;
-    border-radius: 1rem;
-    border-width: 2px;
-}
-
 
 .wwproduct2prijs
 {
@@ -138,7 +125,7 @@ footer
     align-items: center;
     font-size: 1.2rem;
     border-left-style: solid;
-    border-color: rgba(67, 124, 124, 20%);
+    border-color: rgba(67, 124, 124, 10%);
 }
 
 .wwproduct3
@@ -151,19 +138,8 @@ footer
     max-height: 80%;
     font-size: 1.2rem;
     font-weight: bold;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
+    align-items: center;
 }
-
-.wwproduct3 > img
-{
-    max-width: 40%;
-    max-height: 60%;
-    border-radius: 1rem;
-    border-width: 2px;
-}
-
 
 .wwproduct3prijs
 {
@@ -196,6 +172,11 @@ footer
 
 .totaalprijs
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
     font-family: "Nexa Bold";
     font-weight: bold;
     font-size: 1.3rem;

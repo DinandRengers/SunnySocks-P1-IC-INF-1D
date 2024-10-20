@@ -1,10 +1,10 @@
 <?php
-    // Initialiseer variabelen
-    $price = 12.50; // prijs van het product
+    // PHP functie "aantal producten berekenen".
+    $price = 12.50; // default prijs van het product
     $quantity = isset($_POST['quantity']) ? (int)$_POST['quantity'] : 1; // aantal producten
-    $total_price = $price * $quantity; // totale prijs berekenen
-    $btw = $price * $quantity  / 121 * 21;
-    $total = $price * $quantity + $btw + 1.25;
+    $total_price = $price * $quantity; // totale prijs berekenen (Zonder BTW en Servicekosten)
+    $btw = $price * $quantity  / 121 * 21; // BTW berekenen "21%"
+    $total = $price * $quantity + $btw + 1.25; // Totale prijs berekenen (Met BTW en Servicekosten)
 ?>
 
 <!DOCTYPE html>
@@ -43,15 +43,15 @@
                 <div class="wwproduct1">
                     <img class="cancelbutton" src="../content/cancel_icon.png" alt="cancel_icon">
                     <img class="productimg" src="../content/Sunny_socks_uni_green.jpg" alt="Green Socks">
-                    <form method="POST" action="">
+                    <form method="POST" action="Winkelwagen.php">
                         <input type="hidden" name="id" value="1">
                         <input type="hidden" name="price" value="12.50">
-                        <div class="p1info">
+                        <div class="pinfo">
                             <p>Sunny Socks</p>
                             <p>Uni-Socks Groen</p>
                             <label for="quantity">Aantal:</label>
                             <input class="Aantal" type="number" name="quantity" value="<?php echo $quantity; ?>" min="1" max="99">
-                            <p>Prijs: 12.50</p>
+                            <p>Prijs:<?php echo ' €', number_format ($price, 2, ',', '.'); ?></p>
                             <button type="submit">Toepassen</button>
                         </div>
                     </form>
@@ -60,34 +60,42 @@
                     <p>Prijs: €<?php echo number_format($total_price, 2, ',', '.'); ?></p>
                 </div> 
                 <div class="wwproduct2">
+                    <img class="cancelbutton" src="../content/cancel_icon.png" alt="cancel_icon">
                     <img class="productimg" src="../content/Sunny_socks_uni_red.jpg" alt="Red Socks">
-                    <p>Naam: Uni-Socks Rood</p>
-                <form method="POST" action="wagen.php">
-                <input type="hidden" name="id" value="2">
-                <input type="hidden" name="name" value="Striped Green Socks">
-                <input type="hidden" name="price" value="12.50">
-                <label for="quantity">Aantal:</label>
-                <input class="Aantal" type="number" name="quantity" value="1" min="1" max="99">
-                </div>
-                </form>
+                    <form method="POST" action="Winkelwagen.php">
+                        <input type="hidden" name="id" value="2">
+                        <input type="hidden" name="price" value="12.50">
+                        <div class="pinfo">
+                            <p>Sunny Socks</p>
+                            <p>Uni-Socks Rood</p>
+                            <label for="quantity">Aantal:</label>
+                            <input class="Aantal" type="number" name="quantity" value="<?php echo $quantity; ?>" min="1" max="99">
+                            <p>Prijs:<?php echo ' €', number_format ($price, 2, ',', '.'); ?></p>
+                            <button type="submit">Toepassen</button>
+                        </div>
+                    </form>
                 </div>
                     <div class="wwproduct2prijs">
-                        <p>Prijs: €12,50</p>
+                        <p>Prijs: €<?php echo number_format($total_price, 2, ',', '.'); ?></p>
                     </div>
                 <div class="wwproduct3">
-                    <img src="../content/Sunny_socks_uni_yellow.jpg" alt="Yellow Socks">
-                    <p>Naam: Uni-Socks Geel</p>
-                <form method="POST" action="wagen.php">
-                <input type="hidden" name="id" value="2">
-                <input type="hidden" name="name" value="Striped Yellow Socks">
-                <input type="hidden" name="price" value="12.50">
-                <label for="quantity">Aantal:</label>
-                <input class="Aantal" type="number" name="quantity" value="1" min="1" max="99">
-                </div>
-                </form>
+                    <img class="cancelbutton" src="../content/cancel_icon.png" alt="cancel_icon">
+                    <img class="productimg" src="../content/Sunny_socks_yellow.jpg" alt="Yellow Striped Socks">
+                    <form method="POST" action="Winkelwagen.php">
+                        <input type="hidden" name="id" value="3">
+                        <input type="hidden" name="price" value="12.50">
+                        <div class="pinfo">
+                            <p>Sunny Socks</p>
+                            <p>Gestreepde socks Geel</p>
+                            <label for="quantity">Aantal:</label>
+                            <input class="Aantal" type="number" name="quantity" value="<?php echo $quantity; ?>" min="1" max="99">
+                            <p>Prijs:<?php echo ' €', number_format ($price, 2, ',', '.'); ?></p>
+                            <button type="submit">Toepassen</button>
+                        </div>
+                    </form>
                 </div>
                     <div class="wwproduct3prijs">
-                        <p>Prijs: €12,50</p>
+                        <p>Prijs: €<?php echo number_format($total_price, 2, ',', '.'); ?></p>
                     </div>
                 <div class="wwinfo">
                     <img src="../content/sunny_logos_slogan_blue.png" alt="sunny_logos_slogan_blue">
