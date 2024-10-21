@@ -21,7 +21,7 @@ src: url("../content/fonts/Nexa Light.otf");
   font-family: "Nexa Bold";
 }
 
-p
+:is(p, input)
 {
   font-family: "Nexa Light";
 }
@@ -56,10 +56,32 @@ header > img
   width: 30%;
   height: 3rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 0 1rem;
   margin: 1.5rem 1rem;
+}
+
+.zoeken > form
+{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 3rem;
+  align-items: center;
+  width: 100%;
+  text-align: start;
+}
+
+.zoeken > form > input[type="text"]
+{
+  border-style: none;
+  width: 100%;
+  margin-right: auto;
+}
+
+.zoeken > form > input[type="text"]:focus
+{
+  border-style: none;
+  outline: none;
 }
 
 .menu

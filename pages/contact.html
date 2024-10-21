@@ -11,12 +11,10 @@
         <header>
             <img src="../content/sunny_logos-01.png" alt="Sunny Socks logo">
             <div class="zoeken">
-                <form action="search.php" method="POST">
-                    <label for="Zoeken"></label>
-                    <input type="text" name="zoeken" id="Zoeken" placeholder="Zoeken">
-                    <input type="submit" value="versturen">
+                <form action="../search.php" method="POST">
+                    <input type="text" name="zoeken" id="Zoeken" placeholder="Zoeken naar artikelen" autocomplete="off">
+                    <input type="image" src="../content/zoekLogo.png" alt="submit">
                 </form>
-                <img src="../content/zoekLogo.png" alt="Zoeken"> 
             </div>
             <nav class="menu">
                 <ul>
@@ -25,7 +23,7 @@
                     <li class="menuMargin"><a class="headerMenu wit" href="blog.html">Blog</a></li>
                     <li class="menuMargin"><a class="headerMenu wit" href="contact.html">Collectie</a></li>
                     <li class="menuMargin"><a class="headerMenu wit active" href="contact.html">Contact</a></li>
-                    <li><a href="#"><img class="fotoHeader" src="../content/Winkelwagen.png" alt="Winkelwagen"></a></li>
+                    <li><a href="winkelwagen.html"><img class="fotoHeader" src="../content/Winkelwagen.png" alt="Winkelwagen"></a></li>
                 </ul>
             </nav>
         </header>
