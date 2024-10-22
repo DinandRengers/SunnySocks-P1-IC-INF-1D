@@ -3,10 +3,9 @@
     margin: 0;
 }
 
-html, body 
+main
 {
-    overflow-x: hidden;
-    width: 100%;
+    overflow: hidden;
 }
 
 footer
@@ -37,9 +36,10 @@ footer
     grid-template-columns: 1fr 0.5fr;
     grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
     background-color: rgb(137, 189, 185, 35%);
-    margin-block: 6rem;
-    margin-inline: 6rem;
-    border-radius: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    margin-inline: 3rem;
+    border-radius: 1.5rem;
 }
 
 .winkelwagen > h2
@@ -167,7 +167,7 @@ footer
 .wwinfo > img
 {
     width: 75%;
-    height: 40%;
+    height: 60%;
 }
 
 .totaalprijs
