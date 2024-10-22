@@ -89,15 +89,15 @@
                     </div>
                     <div class="formulier">
                         <h3>Vragen? Vul dan het contact formulier in.</h3>
-                        <form class="form">
-                            <label for=""><b>Naam</b></label>
-                            <input placeholder="John" type="text" name="" id="" required>
-                            <label for=""><b>Achternaam</b></label>
-                            <input placeholder="Doe" type="text" name="" id="" required>
+                        <form class="form" action="../formulier.php" onsubmit="alert('Uw vraag is verzonden, wij zullen zo spoedig reageren')">
+                            <label for="Voornaam"><b>Naam</b></label>
+                            <input type="text" name="voornaam" id="Voornaam" required>
+                            <label for="Achternaam"><b>Achternaam</b></label>
+                            <input type="text" name="achternaam" id="Achternaam" required>
                             <label for=""><b>Email</b></label>
-                            <input placeholder="johndoe@email.com" type="text" name="" id="" required>
-                            <label for=""><b>Bericht</b></label>
-                            <input class="berichtHeight" placeholder="Uw bericht hier" type="text" name="" id="" required>
+                            <input placeholder="johndoe@email.com" type="text" name="Email" id="email" required>
+                            <label for="Bericht"><b>Bericht</b></label>
+                            <input class="berichtHeight" type="text" name="Bericht" id="bericht" required>
                             <input class="submit" type="submit" name="" id="" value="Versturen">
                         </form>
                     </div>
