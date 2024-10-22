@@ -1,12 +1,14 @@
 <?php
     // PHP functie "aantal producten berekenen".
-    $price = 12.50; // default prijs van het product
+
+     // default prijs van het product
+    $price = 12.50;
 
     // Array voor de product quantity's
     $quantity = [
-        'quantity1' => isset($_POST['quantity1']) ? (int)$_POST['quantity1'] : 1, // aantal producten
-        'quantity2' => isset($_POST['quantity2']) ? (int)$_POST['quantity2'] : 1, // aantal producten
-        'quantity3' => isset($_POST['quantity3']) ? (int)$_POST['quantity3'] : 1  // aantal producten
+        'quantity1' => isset($_POST['quantity1']) ? (int)$_POST['quantity1'] : 1,
+        'quantity2' => isset($_POST['quantity2']) ? (int)$_POST['quantity2'] : 1,
+        'quantity3' => isset($_POST['quantity3']) ? (int)$_POST['quantity3'] : 1 
     ];
 
     // Haalt de data van $quantity uit elkaar en maakt er 3 variabelen van
