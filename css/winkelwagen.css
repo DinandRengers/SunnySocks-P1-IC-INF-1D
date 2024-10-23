@@ -31,11 +31,6 @@ footer
 
 .winkelwagen
 {
-    display: grid;
-    grid-column: 1;
-    grid-template-columns: 1fr 0.5fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
-    background-color: rgb(137, 189, 185, 35%);
     margin-bottom: 5rem;
     margin-top: 1rem;
     margin-inline: 3rem;
@@ -48,13 +43,23 @@ footer
     color: rgb(55, 63, 92, 100%);
     grid-column: 1/3;
     width: 100%;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     line-height: 6rem;
+    padding-top: 8rem;
+}
+
+.formwinkelwagen
+{
+    background-color: rgb(137, 189, 185, 35%);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 5rem 20rem;
+    margin-top: 4rem;
 }
 
 .cancelbutton
 {
-    width: 4rem;
+    width: 3rem;
     height: 2rem;
     padding-right: 1rem;
     cursor: pointer;
@@ -66,8 +71,9 @@ footer
     padding-inline: 1rem;
     padding-top: 0.5rem;
     color: rgb(52, 52, 74);
-    max-width: 80%;
-    max-height: 80%;
+    grid-row: 1;
+    max-width: 90%;
+    max-height: 20rem;
     font-size: 1.2rem;
     font-weight: bold;
     align-items: center;
@@ -108,8 +114,8 @@ footer
     padding-inline: 1rem;
     padding-top: 0.5rem;
     color: rgb(52, 52, 74);
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 90%;
+    max-height: 20rem;
     font-size: 1.2rem;
     font-weight: bold;
     align-items: center;
@@ -134,8 +140,8 @@ footer
     padding-inline: 1rem;
     padding-top: 0.5rem;
     color: rgb(52, 52, 74);
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 90%;
+    max-height: 20rem;
     font-size: 1.2rem;
     font-weight: bold;
     align-items: center;
@@ -154,25 +160,42 @@ footer
     border-color: rgba(67, 124, 124, 10%);
 }
 
+.wwproduct1, .wwproduct2, .wwproduct3, :is(input)
+{
+    border-radius: 2rem;
+    min-height: 2rem;
+    border-width: 0;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+input.Aantal
+{   
+    padding-left: 1rem;
+}
+
 .wwinfo
 {
     display: flex;
+    grid-row: 5;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    border-top-style: solid;
     border-color: rgba(67, 124, 124, 10%);
+    border-top-style: solid
 }
 
 .wwinfo > img
 {
-    width: 75%;
-    height: 60%;
+    width: 65%;
+    height: 55%;
 }
 
 .totaalprijs
 {
     display: flex;
+    grid-row: 5;
+    grid-column: 2;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -183,4 +206,37 @@ footer
     border-left-style: solid;
     border-color: rgba(67, 124, 124, 10%);
     border-top-style: solid;
+}
+
+.submitbutton
+{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    color: white;
+    border-radius: 2rem;
+}
+
+.submitbutton > button
+{
+    background-color: white;
+    border-radius: 2rem;
+    border-width: 0;
+    min-width: 9rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submitbutton > button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.borderleft
+{
+    border-color: rgba(67, 124, 124, 10%);
+    border-left-style: solid;
 }

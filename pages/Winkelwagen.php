@@ -62,22 +62,18 @@
 
     <main class="contentwinkelwagen">
         <section class="winkelwagen">
-            <h2>Mijn winkelwagen:</h2>
+        <h2>Mijn winkelwagen:</h2>
+            <form class="formwinkelwagen" method="POST" action="Winkelwagen.php">
                 <div class="wwproduct1">
                     <img class="cancelbutton" src="../content/cancel_icon.png" alt="cancel_icon">
                     <img class="productimg" src="../content/Sunny_socks_uni_green.jpg" alt="Green Socks">
-                    <form method="POST" action="Winkelwagen.php">
-                        <input type="hidden" name="id" value="1">
-                        <input type="hidden" name="price" value="12.50">
                         <div class="pinfo">
                             <p>Sunny Socks</p>
                             <p>Uni-Socks Groen</p>
                             <label for="quantity">Aantal:</label>
                             <input class="Aantal" type="number" name="quantity1" value="<?php echo $quantity['quantity1']; ?>" min="1" max="99">
                             <p>Prijs:<?php echo ' €', number_format ($price, 2, ',', '.'); ?></p>
-                            <button type="submit">Toepassen</button>
                         </div>
-                    </form>
                 </div>
                 <div class="wwproduct1prijs">
                     <p>Prijs: €<?php echo number_format($price1, 2, ',', '.'); ?></p>
@@ -85,18 +81,13 @@
                 <div class="wwproduct2">
                     <img class="cancelbutton" src="../content/cancel_icon.png" alt="cancel_icon">
                     <img class="productimg" src="../content/Sunny_socks_uni_red.jpg" alt="Red Socks">
-                    <form method="POST" action="Winkelwagen.php">
-                        <input type="hidden" name="id" value="2">
-                        <input type="hidden" name="price" value="12.50">
                         <div class="pinfo">
                             <p>Sunny Socks</p>
                             <p>Uni-Socks Rood</p>
                             <label for="quantity">Aantal:</label>
                             <input class="Aantal" type="number" name="quantity2" value="<?php echo $quantity['quantity2']; ?>" min="1" max="99">
                             <p>Prijs:<?php echo ' €', number_format ($price, 2, ',', '.'); ?></p>
-                            <button type="submit">Toepassen</button>
                         </div>
-                    </form>
                 </div>
                     <div class="wwproduct2prijs">
                         <p>Prijs: €<?php echo number_format($price2, 2, ',', '.'); ?></p>
@@ -104,26 +95,22 @@
                 <div class="wwproduct3">
                     <img class="cancelbutton" src="../content/cancel_icon.png" alt="cancel_icon">
                     <img class="productimg" src="../content/Sunny_socks_yellow.jpg" alt="Yellow Striped Socks">
-                    <form method="POST" action="Winkelwagen.php">
-                        <input type="hidden" name="id" value="3">
-                        <input type="hidden" name="price" value="12.50">
                         <div class="pinfo">
                             <p>Sunny Socks</p>
                             <p>Gestreepde socks Geel</p>
                             <label for="quantity">Aantal:</label>
                             <input class="Aantal" type="number" name="quantity3" value="<?php echo $quantity['quantity3']; ?>" min="1" max="99">
                             <p>Prijs:<?php echo ' €', number_format ($price, 2, ',', '.'); ?></p>
-                            <button type="submit">Toepassen</button>
                         </div>
-                    </form>
                 </div>
                     <div class="wwproduct3prijs">
                         <p>Prijs: €<?php echo number_format($price3, 2, ',', '.'); ?></p>
                     </div>
-                <div class="wwinfo">
-                    <img src="../content/sunny_logos_slogan_blue.png" alt="sunny_logos_slogan_blue">
-                </div>
-                    <div class="totaalprijs">
+                    <div class="submitbutton">
+                        <button type="submit">Toepassen</button>
+                    </div>
+                    <div class="borderleft"></div>
+                <div class="totaalprijs">
                         <ul>
                             <li><p>Prijs: €<?php echo number_format($total_price, 2, ',', '.'); ?></p></li>
                             <li><p>BTW: €<?php echo number_format($btw, 2, ',', '.'); ?></p></li>
@@ -133,7 +120,11 @@
                             <li><p>Totaal: €<?php echo number_format($total, 2, ',', '.'); ?></p></li>
                             </div>
                         </ul>
-                    </div>
+                </div>
+                <div class="wwinfo">
+                    <img src="../content/sunny_logos_slogan_blue.png" alt="sunny_logos_slogan_blue">
+                </div>
+            </form>
         </section>
         <section class="winkelwagenbanner"></section>
     </main>
