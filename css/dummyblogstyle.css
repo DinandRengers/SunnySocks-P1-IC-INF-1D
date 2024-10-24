@@ -1,0 +1,23 @@
+.headerImage
+{
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.blogContent
+{
+    margin: 2rem;
+}
+
+.blogContent p
+{
+    margin-bottom: 1rem;
+    width: 80vw;
+}
+
+.blogList
+{
+    margin-top: 1rem;
+}

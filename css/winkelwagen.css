@@ -1,0 +1,242 @@
+*
+{
+    margin: 0;
+}
+
+main
+{
+    overflow: hidden;
+}
+
+footer
+{
+  margin-top: 0;
+}
+
+.winkelwagenbanner
+{
+    background-image: url(../content/Winkelwagenportrait.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-inline: 3rem;
+}
+
+.contentwinkelwagen 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 150vh;
+}
+
+.winkelwagen
+{
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    margin-inline: 3rem;
+    border-radius: 1.5rem;
+}
+
+.winkelwagen > h2
+{
+    background-color: white;
+    color: rgb(55, 63, 92, 100%);
+    grid-column: 1/3;
+    width: 100%;
+    font-size: 3.5rem;
+    line-height: 6rem;
+    padding-top: 8rem;
+}
+
+.formwinkelwagen
+{
+    background-color: rgb(137, 189, 185, 35%);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 5rem 20rem;
+    margin-top: 4rem;
+}
+
+.cancelbutton
+{
+    width: 3rem;
+    height: 2rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.wwproduct1
+{
+    display: flex;
+    padding-inline: 1rem;
+    padding-top: 0.5rem;
+    color: rgb(52, 52, 74);
+    grid-row: 1;
+    max-width: 90%;
+    max-height: 20rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.productimg
+{
+    max-width: 60%;
+    max-height: 80%;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-width: 1px;
+}
+
+.pinfo
+{
+    padding-left: 1rem;
+    width: 12rem;
+    line-height: 1.7rem;
+}
+
+.wwproduct1prijs
+{
+    display: flex;
+    grid-column: 2;
+    color: rgb(52, 52, 74);;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-left-style: solid;
+    border-color: rgba(67, 124, 124, 10%);
+}
+
+.wwproduct2
+{
+    display: flex;
+    padding-inline: 1rem;
+    padding-top: 0.5rem;
+    color: rgb(52, 52, 74);
+    max-width: 90%;
+    max-height: 20rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.wwproduct2prijs
+{
+    display: flex;
+    grid-column: 2;
+    color: rgb(52, 52, 74);;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-left-style: solid;
+    border-color: rgba(67, 124, 124, 10%);
+}
+
+.wwproduct3
+{
+    display: flex;
+    padding-inline: 1rem;
+    padding-top: 0.5rem;
+    color: rgb(52, 52, 74);
+    max-width: 90%;
+    max-height: 20rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.wwproduct3prijs
+{
+    display: flex;
+    grid-column: 2;
+    color: rgb(52, 52, 74);;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-left-style: solid;
+    border-color: rgba(67, 124, 124, 10%);
+}
+
+.wwproduct1, .wwproduct2, .wwproduct3, :is(input)
+{
+    border-radius: 2rem;
+    min-height: 2rem;
+    border-width: 0;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+input.Aantal
+{   
+    padding-left: 1rem;
+}
+
+.wwinfo
+{
+    display: flex;
+    grid-row: 5;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-color: rgba(67, 124, 124, 10%);
+    border-top-style: solid
+}
+
+.wwinfo > img
+{
+    width: 65%;
+    height: 55%;
+}
+
+.totaalprijs
+{
+    display: flex;
+    grid-row: 5;
+    grid-column: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-family: "Nexa Bold";
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-left-style: solid;
+    border-color: rgba(67, 124, 124, 10%);
+    border-top-style: solid;
+}
+
+.submitbutton
+{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    color: white;
+    border-radius: 2rem;
+}
+
+.submitbutton > button
+{
+    background-color: white;
+    border-radius: 2rem;
+    border-width: 0;
+    min-width: 9rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submitbutton > button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.borderleft
+{
+    border-color: rgba(67, 124, 124, 10%);
+    border-left-style: solid;
+}
