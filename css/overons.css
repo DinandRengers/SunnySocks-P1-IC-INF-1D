@@ -1,12 +1,19 @@
 *
 {
     margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 .overons
 {
-    width: 100vw;
-    height: 150vh;
+    width: 100%;
+    height: auto;
 }
 
 .headtitle
@@ -14,53 +21,51 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 8rem;
+    height: auto;
     font-weight: 200;
-    font-size: 52px;
-    line-height: 3em;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .contentoverons
 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    height: 65%;
-    margin-inline: 6em;
+    gap: 2rem;
+    height: auto;
+    margin-inline: 3rem;
 }
 
 .overonsinfo
 {
     display: grid;
-    width: 100%;
     height: auto;
-    padding-right: 7em;
-    grid-template-rows: 0.6fr 1.4fr 1fr 1.2fr 1.2fr
+    grid-column: 1;
+    padding-right: 3rem;
+    grid-template-rows: auto;
 }
 
 .overonsinfotitel
 {
-    display: grid;
-    width: 50%;
-    height: 1rem;
-    padding-inline: 25rem;
-    padding-top: 0.5em;
-    grid-row: 1;
-    line-height: 2rem;
+    display: flex;
+    line-height: 1.5;
     font-weight: bolder;
-    font-size: 92px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .overonsinfotitel > h2
 {
-    margin-top: 0.2em;
+    margin-top: 0.2rem;
+    font-size: 4rem;
 }
 
 .overonsinfotitel > p
 {
-    height: 2em;
+    height: 2rem;
     padding-inline: 3rem;
-    padding-bottom: 3rem;
+    font-size: 1.2rem;
 }
 
 .overonsinfosec1
@@ -68,25 +73,22 @@
     background-color: rgb(98, 168, 98);
     color: white;
     width: 90%;
-    font-size: 52px;
-    padding-inline: 0.7em;
-    padding-block: 0.7em;
-    border-radius: 1em;
+    font-size: 1.4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    min-height: auto;
 }
 
 .overonsinfosec1 > .titlesec1
 {
     font-weight: bold;
-
+    font-size: 1.6rem;
 }
 
 .overonsinfosec2
 {
     width: 90%;
-    font-size: 48px;
-    padding-inline: 0.5em;
-    padding-block: 0.5em;
-    border-radius: 1em;
+    font-size: 1.4rem;
     font-family: "Nexa Light";
 }
 
@@ -94,17 +96,14 @@
 {
     color: rgb(98, 168, 98);
     font-weight: bold;
+    font-size: 1.6rem;
     font-family: "Nexa Bold";
-
 }
 
 .overonsinfosec3
 {
     width: 90%;
-    font-size: 48px;
-    padding-inline: 0.5em;
-    padding-block: 0.5em;
-    border-radius: 1em;
+    font-size: 1.4rem;
     font-family: "Nexa Light";
 }
 
@@ -112,8 +111,8 @@
 {
     color: rgb(98, 168, 98);
     font-weight: bold;
+    font-size: 1.6rem;
     font-family: "Nexa Bold";
-
 }
 
 .overonsinfobanner
@@ -126,17 +125,172 @@
 .overonsinfobanner > img
 {
     width: 100%;
-    border-radius: 1%;
+    border-radius: 1em;
 }
 
 .overonstijdlijn
 {
     display: grid;
+    padding-block: 2rem;
+    padding-right: 1.5rem;
     grid-column: 2;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: auto;
+    font-family: "Nexa Light";
+}
+
+.overonstijdlijnsec1, .overonstijdlijnsec2, .overonstijdlijnsec3, 
+.overonstijdlijnsec4, .overonstijdlijnsec5
+{
+    padding: 1.5rem;
+    min-height: auto;
 }
 
 .overonstijdlijnsec1
 {
     background-color: rgb(255, 229, 229, 100%);
+    border-top-left-radius: 2em;
+}
+
+.overonstijdlijnsec1 > .jaarTijdlijn
+{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgb(251, 112, 112, 100%);
+}
+
+.overonstijdlijnsec1 > .titelTijdlijn
+{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(251, 112, 112, 100%);
+}
+
+.overonstijdlijnsec1 > .textTijdlijn
+{
+    font-size: 1.4rem;
+}
+
+.overonstijdlijnsec2
+{
+    background-color: rgb(229, 236, 255, 100%);
+}
+
+.overonstijdlijnsec2 > .jaarTijdlijn
+{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgb(72, 96, 217, 100%);
+}
+
+.overonstijdlijnsec2 > .titelTijdlijn
+{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(72, 96, 217, 100%);
+}
+
+.overonstijdlijnsec2 > .textTijdlijn
+{
+    font-size: 1.4rem;
+}
+
+.overonstijdlijnsec3
+{
+    background-color: rgb(254, 255, 229, 100%);
+}
+
+.overonstijdlijnsec3 > .jaarTijdlijn
+{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgb(232, 204, 53, 100%);
+}
+
+.overonstijdlijnsec3 > .titelTijdlijn
+{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(232, 204, 53, 100%);
+}
+
+.overonstijdlijnsec3 > .textTijdlijn
+{
+    font-size: 1.4rem;
+}
+
+.overonstijdlijnsec4
+{
+    background-color: rgb(229, 255, 230, 100%);
+}
+
+.overonstijdlijnsec4 > .jaarTijdlijn
+{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgb(66, 210, 64, 100%);
+}
+
+.overonstijdlijnsec4 > .titelTijdlijn
+{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(66, 210, 64, 100%);
+}
+
+.overonstijdlijnsec4 > .textTijdlijn
+{
+    font-size: 1.4rem;
+}
+
+.overonstijdlijnsec5
+{
+    background-color: rgb(255, 231, 214, 100%);
+    border-bottom-right-radius: 2em;
+}
+
+.overonstijdlijnsec5 > .jaarTijdlijn
+{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgb(247, 147, 55, 100%);
+}
+
+.overonstijdlijnsec5 > .titelTijdlijn
+{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(247, 147, 55, 100%);
+}
+
+.overonstijdlijnsec5 > .textTijdlijn
+{
+    font-size: 1.4rem;
+}
+
+/* Voor flexibiliteit kleinere displays */
+@media (max-width: 768px) {
+    .headtitle {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .contentoverons {
+        grid-template-columns: 1fr;
+    }
+
+    .overonsinfotitel, .overonstijdlijnsec1 > .jaarTijdlijn, 
+    .overonstijdlijnsec2 > .jaarTijdlijn, 
+    .overonstijdlijnsec3 > .jaarTijdlijn, 
+    .overonstijdlijnsec4 > .jaarTijdlijn, 
+    .overonstijdlijnsec5 > .jaarTijdlijn {
+        font-size: 1.8rem;
+    }
+
+    .overonstijdlijnsec1 > .titelTijdlijn,
+    .overonstijdlijnsec2 > .titelTijdlijn,
+    .overonstijdlijnsec3 > .titelTijdlijn,
+    .overonstijdlijnsec4 > .titelTijdlijn,
+    .overonstijdlijnsec5 > .titelTijdlijn {
+        font-size: 1.6rem;
+    }
 }
