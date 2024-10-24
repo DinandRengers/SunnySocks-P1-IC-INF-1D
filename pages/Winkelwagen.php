@@ -43,23 +43,22 @@
     <header>
             <img src="../content/sunny_logos-01.png" alt="Sunny Socks logo">
             <div class="zoeken">
-                <form action="../search.php" method="POST">
+                <form action="../functies/search.php" method="POST">
                     <input type="text" name="zoeken" id="Zoeken" placeholder="Zoeken naar artikelen" autocomplete="off">
                     <input type="image" src="../content/zoekLogo.png" alt="submit">
                 </form>
             </div>
             <nav class="menu">
                 <ul>
-                    <li class="menuMargin"><a class="headerMenu wit" href="../index.html">Home</a></li>
-                    <li class="menuMargin"><a class="headerMenu wit" href="overons.html">Over ons</a></li>
-                    <li class="menuMargin"><a class="headerMenu wit" href="blog.html">Blog</a></li>
-                    <li class="menuMargin"><a class="headerMenu wit" href="contact.html">Collectie</a></li>
-                    <li class="menuMargin"><a class="headerMenu wit" href="contact.html">Contact</a></li>
-                    <li><a href="winkelwagen.html"><img class="fotoHeader active" src="../content/Winkelwagen.png" alt="Winkelwagen"></a></li>
+                    <li class="menuMargin"><a class="headerMenu wit" href="../pages/home.php">Home</a></li>
+                    <li class="menuMargin"><a class="headerMenu wit" href="../pages/overons.html">Over ons</a></li>
+                    <li class="menuMargin"><a class="headerMenu wit" href="../pages/blog.php">Blog</a></li>
+                    <li class="menuMargin"><a class="headerMenu wit" href="../pages/collectie.html">Collectie</a></li>
+                    <li class="menuMargin"><a class="headerMenu wit" href="../pages/contact.html">Contact</a></li>
+                    <li><a href="../pages/Winkelwagen.php"><img class="fotoHeader" src="../content/Winkelwagen.png" alt="Winkelwagen"></a></li>
                 </ul>
             </nav>
-        </header>
-
+    </header>
     <main class="contentwinkelwagen">
         <section class="winkelwagen">
         <h2>Mijn winkelwagen:</h2>

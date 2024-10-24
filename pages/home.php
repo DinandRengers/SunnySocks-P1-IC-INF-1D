@@ -178,28 +178,31 @@
 </head>
 <body> 
     <header>
-        <img src="../content/sunny_logos-01.png" alt="Sunny Socks logo">
-        <div class="zoeken">
-            <p>Zoeken</p>
-            <img src="../content/zoekLogo.png" alt="Zoeken">
-        </div>
-        <div class="menu">
-            <a class="headerMenu" href="../index.html">Home</a>
-            <a class="headerMenu" href="../pages/overons.html">Over ons</a>
-            <a class="headerMenu" href="#">Blog</a>
-            <a class="headerMenu" href="#">Collectie</a>
-            <a class="headerMenu" href="#">Contact</a>
-            <a href="#"><img class="fotoHeader" src="../content/Winkelwagen.png" alt="Winkelwagen"></a>
-        </div>
+            <img src="../content/sunny_logos-01.png" alt="Sunny Socks logo">
+            <div class="zoeken">
+                <form action="../functies/search.php" method="POST">
+                    <input type="text" name="zoeken" id="Zoeken" placeholder="Zoeken naar artikelen" autocomplete="off">
+                    <input type="image" src="../content/zoekLogo.png" alt="submit">
+                </form>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li class="menuMargin"><a class="headerMenu wit active" href="../pages/home.php">Home</a></li>
+                    <li class="menuMargin"><a class="headerMenu wit" href="../pages/overons.html">Over ons</a></li>
+                    <li class="menuMargin"><a class="headerMenu wit" href="../pages/blog.php">Blog</a></li>
+                    <li class="menuMargin"><a class="headerMenu wit" href="../pages/collectie.html">Collectie</a></li>
+                    <li class="menuMargin"><a class="headerMenu wit" href="../pages/contact.html">Contact</a></li>
+                    <li><a href="../pages/Winkelwagen.php"><img class="fotoHeader" src="../content/Winkelwagen.png" alt="Winkelwagen"></a></li>
+                </ul>
+            </nav>
     </header>
-
     <main>
 <!--         banner -->
         <div class="banner-img">
             <div class="banner-text">
                 <h1>Sunny Socks</h1>
                 <p>"The brightside of socks"</p>
-                <a href="#" class="button">Collectie</a>
+                <a href="../pages/collectie.html" class="button">Collectie</a>
             </div>
         </div>
 
@@ -260,51 +263,60 @@
         </div>
     </main>
 
-    <footer>
-        <div class="footerLocaties">
-            <img class="footerLogo" src="../content/sunny_logos-01.png" alt="Sunny Socks logo">
-            <h2>Onze Locaties</h2>
-            <p>H.A Kooyerplein 40, 9713GV, Groningen</p>
-            <p>Lange Smeestraat 29, 3511PT, Utrecht</p>
-            <p>Leliestraat 21, 6211EA, Maastricht</p>
-        </div>
-            
-        <div class="footerInfo">
-            <h2>Info</h2>
-            <ul>
-                <li><a class="footerInfo" href="#">Algemene Voorwaarden</a></li>
-                <li><a class="footerInfo" href="#">Privacy statement</a></li>
-                <li><a class="footerInfo" href="#">FAQ</a></li>
-                <li><a class="footerInfo" href="#">Contact</a></li>
-            </ul>
-        </div>
+    <footer class="wit">
+            <div class="footerLocaties">
+                <img class="footerLogo" src="../content/sunny_logos-01.png" alt="Sunny Socks logo">
+                <h2>Onze Locaties</h2>
+                <address>
+                    <p>H.A Kooyerplein 40, 9713GV, Groningen</p>
+                    <p>Lange Smeestraat 29, 3511PT, Utrecht</p>
+                    <p>Leliestraat 21, 6211EA, Maastricht</p>
+                </address>
+            </div>
+                
+            <div>
+                <h2>Info</h2>
+                <ul>
+                    <li><a class="footerInfo wit" href="#">Algemene Voorwaarden</a></li>
+                    <li><a class="footerInfo wit" href="#">Privacy statement</a></li>
+                    <li><a class="footerInfo wit" href="#">FAQ</a></li>
+                    <li><a class="footerInfo wit" href="#">Contact</a></li>
+                </ul>
+            </div>
 
-        <div class="footerSocial">
-            <h2>Socials</h2>
-            <div class="footerSocials">
-                <div class="footerFlex">
-                    <a href="https://www.facebook.com"><img src="../content/facebook.png" alt="facebook"></a>
-                    <p>Sunny Socks</p>
-                </div>
-                <div class="footerFlex">
-                    <a href="https://www.instagram.com"><img src="../content/instagram.png" alt="instagram"></a>
-                    <p>@SunnySocks</p>
-                </div>
-                <div class="footerFlex">
-                    <a href="https://www.linkedin.com"><img src="../content/linkedin.png" alt="linkedin"></a>
-                    <p>SunnySocks</p>
-                </div>
-                <div class="footerFlex">
-                    <a href="https://www.x.com"><img src="../content/twitterx.png" alt="twitterx"></a>
-                    <p>@SunnySocks</p>
+            <div class="footerSocial">
+                <h2>Socials</h2>
+                <div class="footerSocials">
+                    <div class="footerFlex">
+                        <a href="https://www.facebook.com">
+                            <img src="../content/facebook.png" alt="facebook">
+                        </a>
+                        <a class="footerInfo wit" href="https://www.facebook.com">Sunny Socks</a>
+                    </div>
+                    <div class="footerFlex">
+                        <a href="https://www.instagram.com">
+                            <img src="../content/instagram.png" alt="instagram">
+                        </a>
+                        <a class="footerInfo wit" href="https://www.instagram.com">@SunnySocks</a>
+                    </div>
+                    <div class="footerFlex">
+                        <a href="https://www.linkedin.com">
+                            <img src="../content/linkedin.png" alt="linkedin">
+                        </a>
+                        <a class="footerInfo wit" href="https://www.linkedin.com">SunnySocks</a>
+                    </div>
+                    <div class="footerFlex">
+                        <a href="https://www.x.com">
+                            <img src="../content/twitterx.png" alt="twitterx">
+                        </a>
+                        <a class="footerInfo wit" href="https://www.x.com">@SunnySocks</a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <section class="footerCopyright">
-            <p>Copyright © Sunny Socks</p>
-        </section>
-    </footer>
-    
+            <section class="footerCopyright">
+                <p>Copyright © Sunny Socks</p>
+            </section>
+        </footer>
 </body>
 </html>

@@ -11,17 +11,21 @@
     <header>
         <img src="../content/sunny_logos-01.png" alt="Sunny Socks logo">
         <div class="zoeken">
-            <p>Zoeken</p>
-            <img src="../content/zoekLogo.png" alt="Zoeken">
+            <form action="../functies/search.php" method="POST">
+                <input type="text" name="zoeken" id="Zoeken" placeholder="Zoeken naar artikelen" autocomplete="off">
+                <input type="image" src="../content/zoekLogo.png" alt="submit">
+            </form>
         </div>
-        <div class="menu">
-            <a class="headerMenu" href="../index.html">Home</a>
-            <a class="headerMenu" href="overons.html">Over ons</a>
-            <a class="headerMenu" href="blog.html">Blog</a>
-            <a class="headerMenu" href="#">Collectie</a>
-            <a class="headerMenu" href="#">Contact</a>
-            <a href="#"><img class="fotoHeader" src="../content/Winkelwagen.png" alt="Winkelwagen"></a>
-        </div>
+        <nav class="menu">
+            <ul>
+                <li class="menuMargin"><a class="headerMenu wit" href="../pages/home.php">Home</a></li>
+                <li class="menuMargin"><a class="headerMenu wit" href="../pages/overons.html">Over ons</a></li>
+                <li class="menuMargin"><a class="headerMenu wit active" href="../pages/blog.php">Blog</a></li>
+                <li class="menuMargin"><a class="headerMenu wit" href="../pages/collectie.html">Collectie</a></li>
+                <li class="menuMargin"><a class="headerMenu wit" href="../pages/contact.html">Contact</a></li>
+                <li><a href="../pages/Winkelwagen.php"><img class="fotoHeader" src="../content/Winkelwagen.png" alt="Winkelwagen"></a></li>
+            </ul>
+        </nav>
     </header>
             <main>
                 <section class="sokken">
@@ -36,49 +40,49 @@
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="waarom-biologisch-katoen-de-beste-keuze-is-voor-jouw-voeten.html">
+                        <a  href="../pages/waarom-biologisch-katoen-de-beste-keuze-is-voor-jouw-voeten.html">
                             <img src="../content/blog2-afbeelding-2.jpg" alt="preview blog 2">
                             <p><b>Waarom Biologisch Katoen De Beste Keuze is Voor Jouw Voeten</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="perfecte-cadeau-gids-geef-duurzaamheid-met-sunny-socks.html">
+                        <a  href="../pages/perfecte-cadeau-gids-geef-duurzaamheid-met-sunny-socks.html">
                             <img src="../content/blog2-afbeelding-7.jpg" alt="preview blog 3">
                             <p><b>De Perfecte Cadeau-Gids: Geef Duurzaamheid Met Sunny Socks</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="comfortabel-en-eco-friendly-de-voordelen-van-sunny-socks.html">
+                        <a  href="../pages/comfortabel-en-eco-friendly-de-voordelen-van-sunny-socks.html">
                             <img src="../content/blog-afbeelding-6.jpg" alt="preview blog 4">
                             <p><b>Comfortabel én Eco-Friendly: De Voordelen van Sunny Socks</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="sokken-met-een-missie-het-verhaal-achter-sunny-socks.html">
+                        <a  href="../pages/sokken-met-een-missie-het-verhaal-achter-sunny-socks.html">
                             <img src="../content/blog2-afbeelding-8.webp" alt="preview blog 5">
                             <p><b>Sokken Met Een Missie: Het Verhaal Achter Sunny Socks</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="van-werk-tot-weekend-sunny-socks-voor-elke-dag.html">
+                        <a  href="../pages/van-werk-tot-weekend-sunny-socks-voor-elke-dag.html">
                             <img src="../content/blog2-afbeelding-1.webp" alt="preview blog 6">
                             <p><b>Van Werk Tot Weekend: Sunny Socks Voor Elke Dag</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="hoe-je-met-kleine-stappen-groter-impact-maakt-begin-bij-je-sokken.html">
+                        <a  href="../pages/hoe-je-met-kleine-stappen-groter-impact-maakt-begin-bij-je-sokken.html">
                             <img src="../content/blog-afbeelding-7.jpg" alt="preview blog 7">
                             <p><b>Hoe Je Met Kleine Stappen Groter Impact Maakt, Begin Bij Je Sokken</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="waarom-duurzaamheid-niet-hoeft-te-betekenen-dat-je-inlevert-op-stijl.html">
+                        <a  href="../pages/waarom-duurzaamheid-niet-hoeft-te-betekenen-dat-je-inlevert-op-stijl.html">
                             <img src="../content/blog2-afbeelding-4.jpg" alt="preview blog 8">
                             <p><b>Waarom Duurzaamheid Niet Hoeft Te Betekenen Dat Je Inlevert Op Stijl</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="de-sok-van-morgen-innovatie-en-milieuvriendelijkheid-hand-in-hand.html">
+                        <a  href="../pages/de-sok-van-morgen-innovatie-en-milieuvriendelijkheid-hand-in-hand.html">
                             <img src="../content/blog2-afbeelding-9.png" alt="preview blog 9">
                             <p><b>De Sok van Morgen: Innovatie en Milieuvriendelijkheid Hand in Hand</b></p>
                         </a>
@@ -90,7 +94,7 @@
                     <a href="blog2.html" class="active">2</a>
                 </section>
             </main>
-            <footer>
+            <footer class="wit">
                 <div class="footerLocaties">
                     <img class="footerLogo" src="../content/sunny_logos-01.png" alt="Sunny Socks logo">
                     <h2>Onze Locaties</h2>
@@ -104,10 +108,10 @@
                 <div>
                     <h2>Info</h2>
                     <ul>
-                        <li><a class="footerInfo" href="#">Algemene Voorwaarden</a></li>
-                        <li><a class="footerInfo" href="#">Privacy statement</a></li>
-                        <li><a class="footerInfo" href="#">FAQ</a></li>
-                        <li><a class="footerInfo" href="#">Contact</a></li>
+                        <li><a class="footerInfo wit" href="#">Algemene Voorwaarden</a></li>
+                        <li><a class="footerInfo wit" href="#">Privacy statement</a></li>
+                        <li><a class="footerInfo wit" href="#">FAQ</a></li>
+                        <li><a class="footerInfo wit" href="#">Contact</a></li>
                     </ul>
                 </div>
     
@@ -118,25 +122,25 @@
                             <a href="https://www.facebook.com">
                                 <img src="../content/facebook.png" alt="facebook">
                             </a>
-                            <a class="footerInfo" href="https://www.facebook.com">Sunny Socks</a>
+                            <a class="footerInfo wit" href="https://www.facebook.com">Sunny Socks</a>
                         </div>
                         <div class="footerFlex">
                             <a href="https://www.instagram.com">
                                 <img src="../content/instagram.png" alt="instagram">
                             </a>
-                            <a class="footerInfo" href="https://www.instagram.com">@SunnySocks</a>
+                            <a class="footerInfo wit" href="https://www.instagram.com">@SunnySocks</a>
                         </div>
                         <div class="footerFlex">
                             <a href="https://www.linkedin.com">
                                 <img src="../content/linkedin.png" alt="linkedin">
                             </a>
-                            <a class="footerInfo" href="https://www.linkedin.com">SunnySocks</a>
+                            <a class="footerInfo wit" href="https://www.linkedin.com">SunnySocks</a>
                         </div>
                         <div class="footerFlex">
                             <a href="https://www.x.com">
                                 <img src="../content/twitterx.png" alt="twitterx">
                             </a>
-                            <a class="footerInfo" href="https://www.x.com">@SunnySocks</a>
+                            <a class="footerInfo wit" href="https://www.x.com">@SunnySocks</a>
                         </div>
                     </div>
                 </div>

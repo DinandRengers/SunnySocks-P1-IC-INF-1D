@@ -6,11 +6,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
     $bericht = filter_input(INPUT_POST, "bericht", FILTER_SANITIZE_STRING);
 
-    if ($voornaam && $achternaam && $email && $bericht) {
-    } else {
-        
-        header("Location: /contact.html?");
-        exit(); 
+    if($voornaam && $achternaam && $email && $bericht) 
+    {
+        header("Location: ../pages/home.php");
+    } 
+    else
+    {
+        header("Location: ../pages/contact.html");
     }
 
 }

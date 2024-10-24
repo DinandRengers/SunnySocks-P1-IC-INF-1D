@@ -11,23 +11,22 @@
     <header>
         <img src="../content/sunny_logos-01.png" alt="Sunny Socks logo">
         <div class="zoeken">
-            <form action="../search.php" method="POST">
+            <form action="../functies/search.php" method="POST">
                 <input type="text" name="zoeken" id="Zoeken" placeholder="Zoeken naar artikelen" autocomplete="off">
                 <input type="image" src="../content/zoekLogo.png" alt="submit">
             </form>
         </div>
         <nav class="menu">
             <ul>
-                <li class="menuMargin"><a class="headerMenu wit" href="../index.html">Home</a></li>
+                <li class="menuMargin"><a class="headerMenu wit" href="../pages/home.php">Home</a></li>
                 <li class="menuMargin"><a class="headerMenu wit" href="../pages/overons.html">Over ons</a></li>
-                <li class="menuMargin"><a class="headerMenu wit" href="../pages/blog.html">Blog</a></li>
-                <li class="menuMargin"><a class="headerMenu wit" href="../pages/collectie.html">Collectie</a></li>
+                <li class="menuMargin"><a class="headerMenu wit" href="../pages/blog.php">Blog</a></li>
+                <li class="menuMargin"><a class="headerMenu wit active" href="../pages/collectie.html">Collectie</a></li>
                 <li class="menuMargin"><a class="headerMenu wit" href="../pages/contact.html">Contact</a></li>
-                <li><a href="winkelwagen.html"><img class="fotoHeader" src="../content/Winkelwagen.png" alt="Winkelwagen"></a></li>
+                <li><a href="../pages/Winkelwagen.php"><img class="fotoHeader" src="../content/Winkelwagen.png" alt="Winkelwagen"></a></li>
             </ul>
         </nav>
     </header>
-
     <main>
         <div class="bannerimage">
             <h2>Collectie</h2>
@@ -154,7 +153,7 @@
 
         </div>
         <section class="pagination">
-            <a href="../pages/blog.html">1</a>
+            <a href="../pages/collectie.html">1</a>
             <a href="../pages/collectie.html" class="active">2</a>
             <a href="#">3</a>
             <a href="#">4</a>
