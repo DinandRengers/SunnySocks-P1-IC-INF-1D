@@ -50,62 +50,62 @@
                             foreach ($listItems as $item => $url)
                             {
                                 $color = $colors[array_rand($colors)];
-                                echo "<a href='$url'><li style='background-color: $color;'><b>$item</b></li></a>";
+                                echo "<a href='$url' class='blogLink'><li style='background-color: $color;'><b>$item</b></li></a>";
                             }
                         ?>
                     </ul>
                 </aside>
                 <section class="artikelen">
                     <div class="blogPreview">
-                        <a  href="../pages/5-redenen-waarom-duurzame-sokken-de-toekomst-zijn.html">
+                        <a  href="../pages/5-redenen-waarom-duurzame-sokken-de-toekomst-zijn.html" class="blogLink">
                             <img src="../content/blog-afbeelding-1.jpg" alt="preview blog 1">
                             <p><b>5 Redenen Waarom Duurzame Sokken de Toekomst Zijn</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="../pages/hoe-sunny-socks-jouw-outfit-duurzamer-maakt.html">
+                        <a  href="../pages/hoe-sunny-socks-jouw-outfit-duurzamer-maakt.html" class="blogLink">
                             <img src="../content/blog-afbeelding-2.webp" alt="preview blog 2">
                             <p><b>Hoe Sunny Socks Jouw Outfit Duurzamer Maakt</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="../pages/waarom-comfortabele-sokken-je-productiviteit-verhogen.html">
+                        <a  href="../pages/waarom-comfortabele-sokken-je-productiviteit-verhogen.html" class="blogLink">
                             <img src="../content/blog-afbeelding-3.jpg" alt="preview blog 3">
                             <p><b>Waarom Comfortabele Sokken Je Productiviteit Verhogen</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="../pages/waarom-goede-sokken-het-verschil-maken-in-jouw-dag.html">
+                        <a  href="../pages/waarom-goede-sokken-het-verschil-maken-in-jouw-dag.html" class="blogLink">
                             <img src="../content/blog-afbeelding-4.webp" alt="preview blog 4">
                             <p><b>Waarom Goede Sokken het Verschil Maken in Jouw Dag</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="../pages/sunny-socks-comfort-en-stijl-voor-elke-gelegenheid.html">
+                        <a  href="../pages/sunny-socks-comfort-en-stijl-voor-elke-gelegenheid.html" class="blogLink">
                             <img src="../content/blog-afbeelding-5.png" alt="preview blog 5">
                             <p><b>Sunny Socks: Comfort en Stijl voor Elke Gelegenheid</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="../pages/hoe-onze-sokken-bijdragen-aan-een-groener-leven.html">
+                        <a  href="../pages/hoe-onze-sokken-bijdragen-aan-een-groener-leven.html" class="blogLink">
                             <img src="../content/blog-afbeelding-11.png" alt="preview blog 6">
                             <p><b>Hoe Onze Sokken Bijdragen aan een Groener Leven</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="../pages/wat-maakt-sunny-socks-zo-anders.html">
+                        <a  href="../pages/wat-maakt-sunny-socks-zo-anders.html" class="blogLink">
                             <img src="../content/blog-afbeelding-10.jpg" alt="preview blog 7">
                             <p><b>Wat Maakt Sunny Socks Zo Anders?</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="../pages/sokken-die-meegaan-tips-voor-langdurig-comfort-en-kwaliteit.html">
+                        <a  href="../pages/sokken-die-meegaan-tips-voor-langdurig-comfort-en-kwaliteit.html" class="blogLink">
                             <img src="../content/blog-afbeelding-8.jpg" alt="preview blog 8">
                             <p><b>Sokken die Meegaan: Tips voor Langdurig Comfort en Kwaliteit</b></p>
                         </a>
                     </div>
                     <div class="blogPreview">
-                        <a  href="../pages/kleur-je-dag-de-perfecte-sunny-socks-voor-elk-seizoen.html">
+                        <a  href="../pages/kleur-je-dag-de-perfecte-sunny-socks-voor-elk-seizoen.html" class="blogLink">
                             <img src="../content/blog-afbeelding-9.webp" alt="preview blog 9">
                             <p><b>Kleur je Dag: De Perfecte Sunny Socks voor Elk Seizoen</b></p>
                         </a>

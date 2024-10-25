@@ -14,7 +14,7 @@
     align-items: start;
 } 
 
-a
+.blogLink
 {
     text-decoration: none;
     color: black;
@@ -41,7 +41,8 @@ a
 .artikelen p {
     max-width: 300px;
 }
-a:hover
+
+.blogLink:hover
 {
     opacity: 75%;
     color: grey;
