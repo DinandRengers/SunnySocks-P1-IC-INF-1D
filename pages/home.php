@@ -2,7 +2,7 @@
     $products =[      
         [
             "name" => "Blauw Gestreepte Sokken",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content\catalogus_sokken_stripes_blue.png",
             "alt" => "blue_striped_socks",
             "color" => "black",
@@ -11,7 +11,7 @@
 
         [
             "name" => "Groen Gestreepte Sokken",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content\catalogus_sokken_stripes_green.png",
             "alt" => "green_striped_socks",
             "color" => "white",
@@ -20,7 +20,7 @@
 
         [
             "name" => "Roze Gestreepte Sokken",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content\catalogus_sokken_stripes_pink.png",
             "alt" => "pink_striped_socks",
             "color" => "black",
@@ -29,7 +29,7 @@
 
         [
             "name" => " Rood Gestreepte Sokken",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content\catalogus_sokken_stripes_red.png",
             "alt" => "Red_striped_socks",
             "color" => "white",
@@ -38,7 +38,7 @@
 
         [
             "name" => "Geel Gestreepte Sokken",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content\catalogus_sokken_stripes_yellow.png",
             "alt" => "yellow_striped_socks",
             "color" => "black",
@@ -47,7 +47,7 @@
 
         [
             "name" => "Blauw Uni Sokken",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content\catalogus_sokken_uni_blue.png",
             "alt" => "blue_uni_socks",
             "color" => "white",
@@ -56,7 +56,7 @@
 
         [
             "name" => "Groen Uni Sokken",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content\catalogus_sokken_uni_green.png",
             "alt" => "green_uni_socks",
             "color" => "black",
@@ -65,7 +65,7 @@
 
         [
             "name" => "Roze Uni Sokken",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content\catalogus_sokken_uni_pink.png",
             "alt" => "roze_uni_socks",
             "color" => "white",
@@ -74,7 +74,7 @@
 
         [
             "name" => "Rood Uni Sokken",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content\catalogus_sokken_uni_red.png",
             "alt" => "red_uni_socks",
             "color" => "black",
@@ -83,7 +83,7 @@
 
         [
             "name" => "Geel Uni Sokken",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content\catalogus_sokken_uni_yellow.png",
             "alt" => "yellow_uni_socks",
             "color" => "white",
@@ -92,7 +92,7 @@
 
         [
             "name" => "Personaliseer",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content/dierensokken.png",
             "alt" => "dierensokken",
             "color" => "black",
@@ -101,7 +101,7 @@
 
         [
             "name" => "Personaliseer",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content/bloemensokken.png",
             "alt" => "bloemensokken",
             "color" => "white",
@@ -110,7 +110,7 @@
 
         [
             "name" => "Personaliseer",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content/yourTextHereSocks.jpg",
             "alt" => "yourTextHereSocks",
             "color" => "black",
@@ -119,7 +119,7 @@
 
         [
             "name" => "Personaliseer",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content/patroonsokken.png",
             "alt" => "patroonsokken",
             "color" => "white",

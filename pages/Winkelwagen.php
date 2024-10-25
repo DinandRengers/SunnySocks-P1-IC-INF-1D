@@ -70,7 +70,7 @@
                             <p>Sunny Socks</p>
                             <p>Uni-Socks Groen</p>
                             <label for="quantity">Aantal:</label>
-                            <input class="Aantal" type="number" name="quantity1" value="<?php echo $quantity['quantity1']; ?>" min="1" max="99">
+                            <input class="Aantal" type="number" name="quantity1" value="<?php echo $quantity['quantity1']; ?>" min="0" max="99">
                             <p>Prijs:<?php echo ' €', number_format ($price, 2, ',', '.'); ?></p>
                         </div>
                 </div>
@@ -84,7 +84,7 @@
                             <p>Sunny Socks</p>
                             <p>Uni-Socks Rood</p>
                             <label for="quantity">Aantal:</label>
-                            <input class="Aantal" type="number" name="quantity2" value="<?php echo $quantity['quantity2']; ?>" min="1" max="99">
+                            <input class="Aantal" type="number" name="quantity2" value="<?php echo $quantity['quantity2']; ?>" min="0" max="99">
                             <p>Prijs:<?php echo ' €', number_format ($price, 2, ',', '.'); ?></p>
                         </div>
                 </div>
@@ -98,7 +98,7 @@
                             <p>Sunny Socks</p>
                             <p>Gestreepde socks Geel</p>
                             <label for="quantity">Aantal:</label>
-                            <input class="Aantal" type="number" name="quantity3" value="<?php echo $quantity['quantity3']; ?>" min="1" max="99">
+                            <input class="Aantal" type="number" name="quantity3" value="<?php echo $quantity['quantity3']; ?>" min="0" max="99">
                             <p>Prijs:<?php echo ' €', number_format ($price, 2, ',', '.'); ?></p>
                         </div>
                 </div>
