@@ -12,5 +12,9 @@ Productpagina – Silvio
 Header – Robbin
 Footer – Robbin
 
-## Functionaliteiten
-- Moet nog besproken worden
+## Functionaliteiten (PHP Functies)
+- Winkelmand aantal prijzen verandering - Dinand Rengers
+- Searchbar - Robbin Schipper
+- Nieuwsbrief - Silvio Feio
+- Dynamic blog kleuren - Pascal Westerhof
+- Dynamic producten op Homepagina - Julian Woo

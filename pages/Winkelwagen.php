@@ -68,7 +68,7 @@
                     <img class="productimg" src="../content/Sunny_socks_uni_green.jpg" alt="Green Socks">
                         <div class="pinfo">
                             <p>Sunny Socks</p>
-                            <p>Uni-Socks Groen</p>
+                            <p>Uni Sokken: GROEN</p>
                             <label for="quantity">Aantal:</label>
                             <input class="Aantal" type="number" name="quantity1" value="<?php echo $quantity['quantity1']; ?>" min="0" max="99">
                             <p>Prijs:<?php echo ' €', number_format ($price, 2, ',', '.'); ?></p>
@@ -82,7 +82,7 @@
                     <img class="productimg" src="../content/Sunny_socks_uni_red.jpg" alt="Red Socks">
                         <div class="pinfo">
                             <p>Sunny Socks</p>
-                            <p>Uni-Socks Rood</p>
+                            <p>Uni Sokken: ROOD</p>
                             <label for="quantity">Aantal:</label>
                             <input class="Aantal" type="number" name="quantity2" value="<?php echo $quantity['quantity2']; ?>" min="0" max="99">
                             <p>Prijs:<?php echo ' €', number_format ($price, 2, ',', '.'); ?></p>
@@ -96,7 +96,7 @@
                     <img class="productimg" src="../content/Sunny_socks_yellow.jpg" alt="Yellow Striped Socks">
                         <div class="pinfo">
                             <p>Sunny Socks</p>
-                            <p>Gestreepde socks Geel</p>
+                            <p>Uni-gestreepd: GEEL</p>
                             <label for="quantity">Aantal:</label>
                             <input class="Aantal" type="number" name="quantity3" value="<?php echo $quantity['quantity3']; ?>" min="0" max="99">
                             <p>Prijs:<?php echo ' €', number_format ($price, 2, ',', '.'); ?></p>

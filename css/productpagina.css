@@ -16,7 +16,7 @@ h1{
     color: grey;
 }
 
-h2 {
+.description-section > h2 {
     color: grey;
 }
 
