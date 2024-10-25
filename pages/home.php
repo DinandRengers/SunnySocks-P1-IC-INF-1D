@@ -74,7 +74,7 @@
 
         [
             "name" => "Rood Uni Sokken",
-            "link" => "#",
+            "link" => "../pages/product_pagina_groen.html",
             "img" => "../content\catalogus_sokken_uni_red.png",
             "alt" => "red_uni_socks",
             "color" => "black",
