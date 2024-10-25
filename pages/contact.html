@@ -41,19 +41,19 @@
                     <div class="googleMaps">
                         <div class="flex mapsBovenOnder">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2388.627089128252!2d6.576059312956148!3d53.224534372138415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c9d2a74492df8b%3A0xe4d7a4e3dcbeb52b!2sH.A.%20Kooykerplein%2040%2C%209713%20GV%20Groningen!5e0!3m2!1snl!2snl!4v1729242732229!5m2!1snl!2snl" 
-                            width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            width="600" height="400" style="border:0;">
                             </iframe>
                             <p>H.A Kooyerplein 40,<br>9713GV  Gronigen - Winkel</p>
                         </div>
                         <div class="flex mapsMidden">
                             <p class="mapsMidden">Lange Smeestraat 29, <br> 3511 PT Utrecht - Winkel</p>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.654252447309!2d5.11823871290406!3d52.08602357183374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f5a1a3447c7%3A0x8d9b0819a1d47d67!2sLange%20Smeestraat%2029%2C%203511%20PT%20Utrecht!5e0!3m2!1snl!2snl!4v1729243095453!5m2!1snl!2snl" 
-                            width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            width="600" height="400" style="border:0;">
                             </iframe>
                         </div>
                         <div class="flex maps mapsBovenOnder">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.0431685816284!2d5.687299712848339!3d50.84888487155281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0e9b9e9021e95%3A0xa3c7f368fb35812c!2sLeliestraat%2021%2C%206211%20EA%20Maastricht!5e0!3m2!1snl!2snl!4v1729243119773!5m2!1snl!2snl" 
-                            width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            width="600" height="400" style="border:0;">
                             </iframe>
                             <p>Leliestraat 21,<br>6211 EA Maastricht - Winkel</p>
                         </div>
@@ -88,16 +88,16 @@
                     </div>
                     <div class="formulier">
                         <h3>Vragen? Vul dan het contact formulier in.</h3>
-                        <form class="form" action="../functies/formulier.php" onsubmit="alert('Uw vraag is verzonden, wij zullen zo spoedig reageren')">
+                        <form class="form" method="POST" action="../functies/formulier.php" onsubmit="alert('Uw vraag is verzonden, wij zullen zo spoedig reageren')">
                             <label for="Voornaam"><b>Naam</b></label>
                             <input type="text" name="voornaam" id="Voornaam" required>
                             <label for="Achternaam"><b>Achternaam</b></label>
                             <input type="text" name="achternaam" id="Achternaam" required>
-                            <label for=""><b>Email</b></label>
-                            <input placeholder="johndoe@email.com" type="text" name="Email" id="email" required>
+                            <label for="Email"><b>Email</b></label>
+                            <input placeholder="johndoe@email.com" type="text" name="email" id="Email" required>
                             <label for="Bericht"><b>Bericht</b></label>
-                            <input class="berichtHeight" type="text" name="Bericht" id="bericht" required>
-                            <input class="submit" type="submit" name="" id="" value="Versturen">
+                            <input class="berichtHeight" type="text" name="bericht" id="Bericht" required>
+                            <input class="submit" type="submit" value="Versturen">
                         </form>
                     </div>
                 </section>
