@@ -153,8 +153,7 @@
 
     function displayProductCard ($products)
     {
-        echo "    
-                    <a href='{$products['link']}' class='productCard'>
+        echo "<a href='{$products['link']}' class='productCard'>
                         <div class='card {$products['color']}'>
                             <img src='{$products['img']}' alt='{$products['alt']}'>
                             <h3>{$products['name']}</h3>
